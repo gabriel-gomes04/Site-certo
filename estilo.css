@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 1200px;
+    width: 100%;
+    background-image: url(PizzaD_Nov2021Shoot-152.jpg);
+    background-color: #c73232;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: fonte_pizza;
+    src: url("Boba Cups.otf");
+    text-decoration: none;
+}
+
+nav ul {
+    height: 130px;
+    width: 100%;
+    background-color: #d8d807;
+    display: flex;
+    color: rgb(16, 16, 17);
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    font-style: oblique;
+    font-family: fonte_pizza;
+    text-decoration: none;
+
+
+}
+
+#Areaboxes1 {
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#caixaazulclaro {}
+
+#caixaverdeclaro {}
+
+#Areaboxes2 {
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#caixavermelho {}
+
+#caixaroxo {}
+
+.box {
+    width: 30%;
+    height: 250px;
+    border: 2px solid black;
+}
+
+@font-face {
+    font-family: fonte_pizza2;
+    src: url(Samantha\ Signature.otf);
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: fonte_pizza2;
+    font-style: oblique;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: fonte_pizza;
+    text-decoration: none;
+
+}
+
+#rodape {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
